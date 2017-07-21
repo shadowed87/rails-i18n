@@ -100,34 +100,6 @@ hi-IN:
       month: माह
       second: सेकंड
       year: वर्ष
-  errors:
-    format: "%{attribute} %{message}"
-    messages:
-      accepted: होना स्वीकार किया जाना आवश्यक
-      blank: खाली नहीं किया जा सकता
-      confirmation: पुष्टिकरण मेल नहीं खाता
-      empty: खाली नहीं किया जा सकता
-      equal_to: "%{count} के लिए बराबर होना चाहिए"
-      even: सम होना चाहिए
-      exclusion: आरक्षित है
-      greater_than: "%{count} से अधिक होना चाहिए"
-      greater_than_or_equal_to: "%{count} से बड़ा या बराबर होना आवश्यक है"
-      inclusion: सूची में शामिल नहीं है
-      invalid: अवैध है
-      less_than: "%{count} से कम होना चाहिए"
-      less_than_or_equal_to: "%{count} से कम या बराबर होना आवश्यक है"
-      not_a_number: कोई संख्या नहीं है
-      not_an_integer: एक पूर्णांक होना चाहिए
-      odd: विषम होना चाहिए
-      taken: पहले ही ले लिया गया है
-      too_long: बहुत लंबा है (अधिकतम %{count} अक्षरों है)
-      too_short: बहुत छोटा है (न्यूनतम %{count} अक्षरों है)
-      wrong_length: गलत लंबाई है (%{count} वर्ण वाले होने चाहिए)
-    template:
-      body: 'वहाँ निम्नलिखित क्षेत्रों के साथ समस्याओं रहे थे:'
-      header:
-        one: एक त्रुटि सहेजे जाने से इस %{model} को निषिद्ध
-        other: "%{count} त्रुटियों को सहेजे जाने से इस %{model} निषिद्ध"
   helpers:
     select:
       prompt: कृपया चुनें
